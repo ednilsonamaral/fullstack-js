@@ -129,7 +129,56 @@ As operações lógicas são expressões construídas a partir de operações co
 - Estrutura de controle de fluxo;  
 - Procura uma melhor caso (`case`) que atende ao resultado.
 
-## Loops
+## Loops (Estruturas de repetição)
+São utilizadas para repetir um bloco de código. Pode ser um determinado número de vezes ou até uma determinada condição seja atendida.
+
+### While
+A declaração while cria um laço que executa uma rotina especifica enquanto a condição de teste for avaliada como verdadeira. A condição é avaliada antes da execução da rotina. Ele recebe apenas uma expressão.
+
+```
+let velocity = 60
+let acceleration = 6
+
+while (velocity <= 100>) {
+  console.log('Estamos em ' + velocity + 'km/s')
+  velocity += acceleration
+}
+```
+
+### For
+A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.
+
+Ao contrário do `while`, com o `for` é possível adicionarmos a variável que utilizaremos para controlar as iterações.
+
+```
+for (<variável>; <expressão>; <ação de controle>) {
+  <bloco de código>
+}
+```
+
+Por exemplo:
+```
+let people = "Holdor"
+
+for (let i = 0; i < people.length; i++) {
+  console.log(people[i])
+}
+```
+
+### Do...while
+A declaração `do...while` cria um laço que executa uma declaração até que o teste da condição for falsa (`false`). A condição é avaliada depois que o bloco de código é executado, resultando que uma declaração seja executada pelo menos uma vez.
+
+```
+let velocity = 60
+let acceleration = 6
+
+do {
+  console.log('Estamos em ' + velocity + 'km/s')
+  velocity += acceleration
+} while (velocity <= 100)
+```
+
+
 ## Funções
 ## Arrays
 ## Objetos
@@ -143,4 +192,7 @@ As operações lógicas são expressões construídas a partir de operações co
 - [Primitivo](https://developer.mozilla.org/pt-BR/docs/Glossary/Primitive)  
 - [A quick tour of JavaScript primitives](https://milkjar.medium.com/a-quick-tour-of-javascript-primitives-894eceee31c2#:~:text=Primitives%20are%20the%20simplest%20elements,which%20can%20not%20be%20changed.)  
 - [Matemática básica no JavaScript — números e operadores](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Math#operadores_aritm%C3%A9ticos)  
-- [Console](https://developer.mozilla.org/pt-BR/docs/Web/API/Console)
+- [Console](https://developer.mozilla.org/pt-BR/docs/Web/API/Console)  
+- [While](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while)  
+- [For](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for)
+- [Do...while](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while)
