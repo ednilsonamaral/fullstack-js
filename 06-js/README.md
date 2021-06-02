@@ -1,7 +1,6 @@
 # Módulo 06 - Javascript
 
 ## O que é o Javascript ?
-
 Nasceu em 1995, criada por Brendan Eich, na Netscape. Surgiu para deixar as páginas HTML mais dinâmicas, já que na época, apenas HTML e CSS não era possível ter dinamismo, ou seja, as páginas eram estáticas.
 
 O Javascript possui múltiplos paradigmas, sendo eles:
@@ -13,7 +12,6 @@ Além disso, ela possui tipagem dinâmica e fraca.
 
 
 ## Evolução do Javascript
-
 - Normalizado em 1996 através da ECMA International;
 - Nome oficial da linguagém é ECMAScript;
 - A versão atual é o ES8 (versão 8) (maio-2021);
@@ -21,7 +19,6 @@ Além disso, ela possui tipagem dinâmica e fraca.
 
 
 ## Primeiros passos
-
 ### Tipos primitivos
 
 São a base de um código, ou seja, são os elementos mais básicos de uma linguagem de programação. 
@@ -69,14 +66,6 @@ Atualmente, o JS possui os seguintes tipos primitovos: string, number, boolean, 
 - Multiplicação (*=);  
 - Divisão (/=).
 
-#### Operadores de comparação
-- Igualdade estrita, ou seja, identifica se os valores são iguais em tipo e valor (===);  
-- Não igualdade estrita (!==);  
-- Menor que (<);  
-- Maior que (>);  
-- Menor ou igual que (<=);  
-- Maior ou igual que (>=).
-
 
 ### Recursos nativos do browser
 - `console.log('hello world!')`;  
@@ -89,7 +78,6 @@ Atualmente, o JS possui os seguintes tipos primitovos: string, number, boolean, 
 
 
 ### Declarando variáveis
-
 São recursos que utilizamos para armezarmos valores dentro do nosso código.
 
 A partir do ES6, temos 3 tipos de variáveis: `var`, `let` e `const`.
@@ -109,6 +97,38 @@ A partir do ES6, temos 3 tipos de variáveis: `var`, `let` e `const`.
 
 
 ## Condicionais
+### Comparações de dados
+Basicamente são operações onde o retorno será do tipo *booleano*, ou seja, vai retornar *true* ou *false*. Sempre vai retornar valores lógicos.  
+
+Os operadores de comparação são:  
+- Igualdade, não identifica o tipo e sim apenas o valor do dado (==);  
+- Igualdade estrita, ou seja, identifica se os valores são iguais em tipo e valor (===);  
+- Não igualdade estrita (!==);  
+- Menor que (<);  
+- Maior que (>);  
+- Menor ou igual que (<=);  
+- Maior ou igual que (>=).
+
+
+### Operações lógicas
+As operações lógicas são expressões construídas a partir de operações com valores booleanos.
+#### AND
+#### OR
+#### NOT
+
+### Operações condicionais
+#### IF
+#### IF.. ELSE
+#### IF.. ELSE IF..
+
+#### Operador ternário
+##### `(velocity > 100) ? console.log('vdd') : console.log('falso')`
+
+### Switch
+- Avalia uma expressão;  
+- Estrutura de controle de fluxo;  
+- Procura uma melhor caso (`case`) que atende ao resultado.
+
 ## Loops
 ## Funções
 ## Arrays
